@@ -1,0 +1,37 @@
+button {
+border-radius: 10px;
+border: none;
+background-color: orange;
+width: 90px;
+height: 50px;
+
+}
+
+input {
+  background-color: rgb(117, 81, 81);
+  border-radius: 5px;
+  width: 290px;
+  height: 50px;
+  margin:5px;
+}
+
+.inner-container{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 290px;
+  height: 350px;
+  margin:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+.outer-container{
+  background-color: rgb(88, 93, 93);
+  border-radius: 10px;
+  width:300px;
+  height: 420px;
+
+  border: 1px solid black;
+}
